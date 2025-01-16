@@ -41,17 +41,29 @@ header{
 
 nav{
     grid-area: n;
+    box-shadow: 0 0 10 white;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:0px;
+
 
 }
 nav a {
     text-decoration: none;
+    color: red;
 }
+
+a:hover{
+color: white;
+}
+
 
 nav li{
     list-style: none;
     border: solid white 1px;
-    color: red;
     font-style: bold;
+    text-align: left;
+    border-radius: 5px;
 }
 
 
@@ -59,6 +71,7 @@ article{
     font-size: 10px;
     text-align: justify;
     grid-area: ar;
+    background-color: black;
 }
 
 

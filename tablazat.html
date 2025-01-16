@@ -1,40 +1,65 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Polgár Botond</title>
+    
 </head>
+
 <body>
     <main>
-        <table style="width:100%">
-            <tr>
-              <th>Neve</th>
-              <th>Fajtája</th>
-              <th>Gyártás helye</th>
-              <th>Forgalmazás Éve</th>
-            </tr>
-            <tr>
-              <td>Soproni duhaj</td>
-              <td>Szürt,világos</td>
-              <td>Heineken sörgyár</td>
-              <td>1987</td>
-            </tr>
-            <tr>
-              <td>Barna Kőbányai</td>
-              <td>Barna szüretlen</td>
-              <td>Kispesti sörgyár</td>
-              <td>2007</td>
-            </tr>
-            <td>CSíki Vadmálnás vitamin sör</td>
-              <td>Ízesített sör</td>
-              <td>CSiki sörgyár</td>
-              <td>2018</td>
+        <header>
+            <h1>HA KELL EGY JÓ SÖR...</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sörökfajtái</a></li>
+                <li><a href="tablazat.html">Táblázat</a></li>
+                <li><a href="#">Hírlevél</a></li>
+            </ul>
+        </nav>
+        <article>
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Neve</th>
+                <th>Fajtája</th>
+                <th>Gyártás helye</th>
+                <th>Forgalmazás Éve</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Soproni duhaj</td>
+                <td>Szürt,világos</td>
+                <td>Heineken sörgyár</td>
+                <td>1987</td>
+              </tr>
+              <tr>
+                <td>Barna Kőbányai</td>
+                <td>Barna szüretlen</td>
+                <td>Kispesti sörgyár</td>
+                <td>2007</td>
+              </tr>
+              <tr>
+                <td>CSíki Vadmálnás vitamin sör</td>
+                <td>Ízesített sör</td>
+                <td>CSiki sörgyár</td>
+                <td>2018</td>
+              </tr>
+            </tbody>
           </table>
+        </article>
+        <footer>
+          @Minden jogfenntartva!
+        </footer>
     </main>
 </body>
+
 </html>
